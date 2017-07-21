@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADE5AE81F21FCCC00433FC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5AE71F21FCCC00433FC4 /* main.m */; };
+		2ADE5AEB1F21FCCC00433FC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5AEA1F21FCCC00433FC4 /* AppDelegate.m */; };
+		2ADE5AEE1F21FCCC00433FC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5AED1F21FCCC00433FC4 /* ViewController.m */; };
+		2ADE5AF11F21FCCC00433FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE5AEF1F21FCCC00433FC4 /* Main.storyboard */; };
+		2ADE5AF31F21FCCC00433FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE5AF21F21FCCC00433FC4 /* Assets.xcassets */; };
+		2ADE5AF61F21FCCC00433FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE5AF41F21FCCC00433FC4 /* LaunchScreen.storyboard */; };
+		2ADE5B011F21FCCD00433FC4 /* WellSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5B001F21FCCD00433FC4 /* WellSlideViewTests.m */; };
+		2ADE5B0C1F21FCCD00433FC4 /* WellSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5B0B1F21FCCD00433FC4 /* WellSlideViewUITests.m */; };
+		2ADE5B1B1F21FCF100433FC4 /* WellSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5B1A1F21FCF100433FC4 /* WellSlideView.m */; };
+		2ADE5B201F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5B1D1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.m */; };
+		2ADE5B211F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5B1F1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.m */; };
+		2ADE5B241F21FD8D00433FC4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE5B231F21FD8D00433FC4 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ADE5AFD1F21FCCD00433FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADE5ADB1F21FCCC00433FC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADE5AE21F21FCCC00433FC4;
+			remoteInfo = WellSlideView;
+		};
+		2ADE5B081F21FCCD00433FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADE5ADB1F21FCCC00433FC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADE5AE21F21FCCC00433FC4;
+			remoteInfo = WellSlideView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ADE5AE31F21FCCC00433FC4 /* WellSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADE5AE71F21FCCC00433FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ADE5AE91F21FCCC00433FC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ADE5AEA1F21FCCC00433FC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ADE5AEC1F21FCCC00433FC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ADE5AED1F21FCCC00433FC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ADE5AF01F21FCCC00433FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ADE5AF21F21FCCC00433FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADE5AF51F21FCCC00433FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ADE5AF71F21FCCC00433FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADE5AFC1F21FCCD00433FC4 /* WellSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADE5B001F21FCCD00433FC4 /* WellSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellSlideViewTests.m; sourceTree = "<group>"; };
+		2ADE5B021F21FCCD00433FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADE5B071F21FCCD00433FC4 /* WellSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADE5B0B1F21FCCD00433FC4 /* WellSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellSlideViewUITests.m; sourceTree = "<group>"; };
+		2ADE5B0D1F21FCCD00433FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADE5B191F21FCF100433FC4 /* WellSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WellSlideView.h; sourceTree = "<group>"; };
+		2ADE5B1A1F21FCF100433FC4 /* WellSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WellSlideView.m; sourceTree = "<group>"; };
+		2ADE5B1C1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendDetailSecondCellCollectionViewFirstCell.h; sourceTree = "<group>"; };
+		2ADE5B1D1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendDetailSecondCellCollectionViewFirstCell.m; sourceTree = "<group>"; };
+		2ADE5B1E1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendDetailSecondCellCollectionViewSecondCell.h; sourceTree = "<group>"; };
+		2ADE5B1F1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendDetailSecondCellCollectionViewSecondCell.m; sourceTree = "<group>"; };
+		2ADE5B221F21FD8D00433FC4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2ADE5B231F21FD8D00433FC4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADE5AE01F21FCCC00433FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADE5AF91F21FCCD00433FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADE5B041F21FCCD00433FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADE5ADA1F21FCCC00433FC4 = {
+			isa = PBXGroup;
+			children = (
+				2ADE5AE51F21FCCC00433FC4 /* WellSlideView */,
+				2ADE5AFF1F21FCCD00433FC4 /* WellSlideViewTests */,
+				2ADE5B0A1F21FCCD00433FC4 /* WellSlideViewUITests */,
+				2ADE5AE41F21FCCC00433FC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADE5AE41F21FCCC00433FC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE5AE31F21FCCC00433FC4 /* WellSlideView.app */,
+				2ADE5AFC1F21FCCD00433FC4 /* WellSlideViewTests.xctest */,
+				2ADE5B071F21FCCD00433FC4 /* WellSlideViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADE5AE51F21FCCC00433FC4 /* WellSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE5B1C1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.h */,
+				2ADE5B1D1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.m */,
+				2ADE5B1E1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.h */,
+				2ADE5B1F1F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.m */,
+				2ADE5B221F21FD8D00433FC4 /* UIView+Frame.h */,
+				2ADE5B231F21FD8D00433FC4 /* UIView+Frame.m */,
+				2ADE5B191F21FCF100433FC4 /* WellSlideView.h */,
+				2ADE5B1A1F21FCF100433FC4 /* WellSlideView.m */,
+				2ADE5AE91F21FCCC00433FC4 /* AppDelegate.h */,
+				2ADE5AEA1F21FCCC00433FC4 /* AppDelegate.m */,
+				2ADE5AEC1F21FCCC00433FC4 /* ViewController.h */,
+				2ADE5AED1F21FCCC00433FC4 /* ViewController.m */,
+				2ADE5AEF1F21FCCC00433FC4 /* Main.storyboard */,
+				2ADE5AF21F21FCCC00433FC4 /* Assets.xcassets */,
+				2ADE5AF41F21FCCC00433FC4 /* LaunchScreen.storyboard */,
+				2ADE5AF71F21FCCC00433FC4 /* Info.plist */,
+				2ADE5AE61F21FCCC00433FC4 /* Supporting Files */,
+			);
+			path = WellSlideView;
+			sourceTree = "<group>";
+		};
+		2ADE5AE61F21FCCC00433FC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE5AE71F21FCCC00433FC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ADE5AFF1F21FCCD00433FC4 /* WellSlideViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE5B001F21FCCD00433FC4 /* WellSlideViewTests.m */,
+				2ADE5B021F21FCCD00433FC4 /* Info.plist */,
+			);
+			path = WellSlideViewTests;
+			sourceTree = "<group>";
+		};
+		2ADE5B0A1F21FCCD00433FC4 /* WellSlideViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE5B0B1F21FCCD00433FC4 /* WellSlideViewUITests.m */,
+				2ADE5B0D1F21FCCD00433FC4 /* Info.plist */,
+			);
+			path = WellSlideViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ADE5AE21F21FCCC00433FC4 /* WellSlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADE5B101F21FCCD00433FC4 /* Build configuration list for PBXNativeTarget "WellSlideView" */;
+			buildPhases = (
+				2ADE5ADF1F21FCCC00433FC4 /* Sources */,
+				2ADE5AE01F21FCCC00433FC4 /* Frameworks */,
+				2ADE5AE11F21FCCC00433FC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellSlideView;
+			productName = WellSlideView;
+			productReference = 2ADE5AE31F21FCCC00433FC4 /* WellSlideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ADE5AFB1F21FCCD00433FC4 /* WellSlideViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADE5B131F21FCCD00433FC4 /* Build configuration list for PBXNativeTarget "WellSlideViewTests" */;
+			buildPhases = (
+				2ADE5AF81F21FCCD00433FC4 /* Sources */,
+				2ADE5AF91F21FCCD00433FC4 /* Frameworks */,
+				2ADE5AFA1F21FCCD00433FC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADE5AFE1F21FCCD00433FC4 /* PBXTargetDependency */,
+			);
+			name = WellSlideViewTests;
+			productName = WellSlideViewTests;
+			productReference = 2ADE5AFC1F21FCCD00433FC4 /* WellSlideViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ADE5B061F21FCCD00433FC4 /* WellSlideViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADE5B161F21FCCD00433FC4 /* Build configuration list for PBXNativeTarget "WellSlideViewUITests" */;
+			buildPhases = (
+				2ADE5B031F21FCCD00433FC4 /* Sources */,
+				2ADE5B041F21FCCD00433FC4 /* Frameworks */,
+				2ADE5B051F21FCCD00433FC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADE5B091F21FCCD00433FC4 /* PBXTargetDependency */,
+			);
+			name = WellSlideViewUITests;
+			productName = WellSlideViewUITests;
+			productReference = 2ADE5B071F21FCCD00433FC4 /* WellSlideViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADE5ADB1F21FCCC00433FC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = well;
+				TargetAttributes = {
+					2ADE5AE21F21FCCC00433FC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZZKE7H6B25;
+						ProvisioningStyle = Automatic;
+					};
+					2ADE5AFB1F21FCCD00433FC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZZKE7H6B25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ADE5AE21F21FCCC00433FC4;
+					};
+					2ADE5B061F21FCCD00433FC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZZKE7H6B25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ADE5AE21F21FCCC00433FC4;
+					};
+				};
+			};
+			buildConfigurationList = 2ADE5ADE1F21FCCC00433FC4 /* Build configuration list for PBXProject "WellSlideView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADE5ADA1F21FCCC00433FC4;
+			productRefGroup = 2ADE5AE41F21FCCC00433FC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADE5AE21F21FCCC00433FC4 /* WellSlideView */,
+				2ADE5AFB1F21FCCD00433FC4 /* WellSlideViewTests */,
+				2ADE5B061F21FCCD00433FC4 /* WellSlideViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADE5AE11F21FCCC00433FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE5AF61F21FCCC00433FC4 /* LaunchScreen.storyboard in Resources */,
+				2ADE5AF31F21FCCC00433FC4 /* Assets.xcassets in Resources */,
+				2ADE5AF11F21FCCC00433FC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADE5AFA1F21FCCD00433FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADE5B051F21FCCD00433FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADE5ADF1F21FCCC00433FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE5AEE1F21FCCC00433FC4 /* ViewController.m in Sources */,
+				2ADE5B201F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewFirstCell.m in Sources */,
+				2ADE5AEB1F21FCCC00433FC4 /* AppDelegate.m in Sources */,
+				2ADE5B241F21FD8D00433FC4 /* UIView+Frame.m in Sources */,
+				2ADE5B211F21FD3E00433FC4 /* TrendDetailSecondCellCollectionViewSecondCell.m in Sources */,
+				2ADE5B1B1F21FCF100433FC4 /* WellSlideView.m in Sources */,
+				2ADE5AE81F21FCCC00433FC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADE5AF81F21FCCD00433FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE5B011F21FCCD00433FC4 /* WellSlideViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADE5B031F21FCCD00433FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE5B0C1F21FCCD00433FC4 /* WellSlideViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ADE5AFE1F21FCCD00433FC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADE5AE21F21FCCC00433FC4 /* WellSlideView */;
+			targetProxy = 2ADE5AFD1F21FCCD00433FC4 /* PBXContainerItemProxy */;
+		};
+		2ADE5B091F21FCCD00433FC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADE5AE21F21FCCC00433FC4 /* WellSlideView */;
+			targetProxy = 2ADE5B081F21FCCD00433FC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ADE5AEF1F21FCCC00433FC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADE5AF01F21FCCC00433FC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ADE5AF41F21FCCC00433FC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADE5AF51F21FCCC00433FC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ADE5B0E1F21FCCD00433FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2ADE5B0F1F21FCCD00433FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADE5B111F21FCCD00433FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellSlideView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellSlideView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2ADE5B121F21FCCD00433FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellSlideView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellSlideView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2ADE5B141F21FCCD00433FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellSlideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellSlideViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellSlideView.app/WellSlideView";
+			};
+			name = Debug;
+		};
+		2ADE5B151F21FCCD00433FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellSlideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellSlideViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellSlideView.app/WellSlideView";
+			};
+			name = Release;
+		};
+		2ADE5B171F21FCCD00433FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellSlideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellSlideViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WellSlideView;
+			};
+			name = Debug;
+		};
+		2ADE5B181F21FCCD00433FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellSlideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellSlideViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WellSlideView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADE5ADE1F21FCCC00433FC4 /* Build configuration list for PBXProject "WellSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADE5B0E1F21FCCD00433FC4 /* Debug */,
+				2ADE5B0F1F21FCCD00433FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADE5B101F21FCCD00433FC4 /* Build configuration list for PBXNativeTarget "WellSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADE5B111F21FCCD00433FC4 /* Debug */,
+				2ADE5B121F21FCCD00433FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ADE5B131F21FCCD00433FC4 /* Build configuration list for PBXNativeTarget "WellSlideViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADE5B141F21FCCD00433FC4 /* Debug */,
+				2ADE5B151F21FCCD00433FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ADE5B161F21FCCD00433FC4 /* Build configuration list for PBXNativeTarget "WellSlideViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADE5B171F21FCCD00433FC4 /* Debug */,
+				2ADE5B181F21FCCD00433FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ADE5ADB1F21FCCC00433FC4 /* Project object */;
+}
